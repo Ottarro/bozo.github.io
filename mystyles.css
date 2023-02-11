@@ -1,0 +1,105 @@
+#container {
+	width: 1100px;
+	margin: auto;
+}
+
+.header {
+	height: 260px;
+	background-color: #D2B48C;
+}
+
+.footer {
+	background-color: #8B4513;
+	color: #;
+	padding: 10px;
+	border-top: 10px solid #D2B48C;
+	text-align: center;
+}
+ 
+section {
+	background-color: #F5DEB3;
+	padding: 30px;
+}
+
+ul{
+	background-color: #8B4513;
+	margin: 0px;
+	padding: 2px;
+	list-style-type: none;	/*removes the bullet point design*/
+	overflow: hidden; /*overlow is clipped and the rest of the content is hidden */
+}
+
+li {
+	float: left;
+	margin-left: 50px;
+}
+
+li a {
+	display: block;
+	color: #f8f8f8;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none; /*removes the hyperlink formatting*/
+}
+
+.active {
+	background-color: #A0522D;
+}
+
+li a:hover:not(.active) {
+	color:#D2B48C; /*hover background color will not apply to the button that has the active class style applied*/
+}
+
+h1 { 
+	font-variant: small-caps;
+	color: #778899;
+	font-size: 45px;
+	
+}
+
+h2{
+	color: black;
+	background-color: #8B4513;
+	border-bottom: 5px solid #D2B48C;
+	clear: both;
+	margin-top: 10px;
+	
+}
+
+body{
+	background-image: url("images/wood.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: ;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.column {
+	width: 500px;
+	padding: 5px; /*space between columns*/
+}
+
+.row::after{
+	content: "";  /*empty*/
+	display: table;
+	clear: both;
+}
+
+.price {
+	font-style: italic;
+	color: #000001;
+	}
+
+.number{
+	text-align: center;
+	color:#;
+	font-size: 25px;
+	font-weight: bold;
+	font-weight: bold;
+}
+.center{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
